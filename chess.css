@@ -1,0 +1,142 @@
+body{
+	transition: all ease 1s;
+	background-size: 100%;
+	background-position: center center;
+	background-attachment: fixed; 
+	background-image: url('https://i.pinimg.com/originals/5f/a6/23/5fa623bb4f841087b928b49982a369a8.jpg');
+}
+
+#grid{
+	display: grid;
+	grid-template-rows: 250px 250px 250px;
+	grid-template-columns: 250px 250px 250px;
+}
+
+#grid1{
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	position: relative;
+	top: 100px;
+	left: 500px;
+	transition: all ease 1s;
+	font-size: 100px;
+	width: 100%;
+	font-style: sans-serif;
+	opacity: 0;
+}
+
+#grid2{
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	position: relative;
+	transition: all ease 1s;
+	width: 100%;	
+	left: -100px;
+	opacity: 0;
+}
+
+#grid3{
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	position: relative;
+	transition: all ease 1s;
+	width: 100%;	
+	top: -150px;	
+	left: -100px;
+	opacity: 0;
+}
+
+#grid4{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	position: relative;
+	transition: all ease 1s;
+	left: 100px;
+	opacity: 0;
+	height: 500px;
+}
+
+#grid5{
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	position: relative;
+	transition: all ease 1s;
+	background-color: white;
+	width: 550px;
+	top: 50px;
+	height: 100px;
+	background: rgba( 0,0,0,.001);
+}
+
+#grid6{
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	position: relative;
+	transition: all ease 1s;
+	background-color: white;
+	width: 10px;
+	height: 10px;
+	left: 300px;
+	background: rgba( 0,0,0,.05);
+}
+
+#log, #pass{
+	height: 60px;
+	width: 120px;
+	left: 300px;
+	position: relative;
+	transition: all ease 0.5s;
+	border: 0;
+    background: rgba( 0,0,0,.001);
+	border-bottom: 1px solid black;
+}
+
+#name, #pa{
+	position: relative;
+	left: 300px;
+	font-size: 15px;
+}
+
+#l1, #l2, #l3{
+	text-decoration: none;
+	display: grid;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	height: 80px;
+	width: 120px;
+	margin-top: 2px;
+	transition: all ease 0.5s;
+}
+
+#l4, #l5, #l6{
+	text-decoration: none;
+	display: inline-grid;
+	font-size: 20px;
+	color: black;
+	padding: 15px;
+	width: 150px;
+}
+
+#l1{
+	background-image: url('2.jpg');
+}
+#l2{
+	background-image: url('3.jpg');
+}
+#l3{
+	background-image: url('4.jpg');
+}
+
