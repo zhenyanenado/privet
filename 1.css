@@ -1,0 +1,63 @@
+#grid{
+	display: grid;
+	position: fixed;
+	grid-template-columns: repeat(1, 1330px);
+	grid-template-rows: repeat(1, 750px);
+}
+
+
+#grid1{
+	width: 450px;
+	height: 800px;
+	background-size: 100%;
+	background-image: url('https://i.pinimg.com/originals/26/6a/09/266a09c901323b6f969540b6f152029f.png');
+	transition: all ease 0.3s;
+	position: fixed;
+	min-width: 950px;
+	min-height: 1534px;
+	min-width: 950px;
+	min-height: 1534px;
+}
+
+#swipe{
+	transition: all ease 0.5s;
+	position: fixed;
+	top: 1200px;
+	left: 30px;
+	border-radius: 100px;
+	width: 400px;
+	height: 200px;
+	min-width: 850px;
+	max-width: 750px;
+	border: 2px solid white;
+}
+
+#krug{
+	position: relative;
+	transition: all ease 0.1s;
+	width: 200px;
+	height: 200px;
+	min-width: 200px;
+	max-width: 200px;
+	border-radius: 50%;
+	background-color: white;
+	opacity: 0.6;
+}
+
+#hello{
+	position: relative;
+	top: 300px;
+	min-width: 750px;
+	max-width: 750px;
+	transition: all  ease 0.5s;
+	left: 200px;
+	font-size: 100px;
+	opacity: 0;
+}
+
+#sw{
+	top: 1100px;
+	font-size: 50px;
+	position: relative;
+	left: 40%;
+}
