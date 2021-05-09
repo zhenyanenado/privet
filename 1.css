@@ -11,4 +11,11 @@ body{
 	height: 700px;
 }
 
+#grid1, #grid2, #grid3, #grid{
+	min-width: 400px;
+	max-width: 400px;
+	min-height: 700px;
+	max-height: 700px;
+
+}
 
