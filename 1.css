@@ -7,15 +7,15 @@ body{
 	transition: all ease 1s;
 	position: fixed;
 	display: grid;
-	width: 400px;
-	height: 700px;
+	width: 750px;
+	height: 1337px;
 }
 
 #grid1, #grid2, #grid3, #grid{
-	min-width: 400px;
-	max-width: 400px;
-	min-height: 700px;
-	max-height: 700px;
+	min-width: 750px;
+	max-width: 750px;
+	min-height: 1337px;
+	max-height: 1337px;
 
 }
 
